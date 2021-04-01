@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+}
+
+
+
+#scoring{
+    display:flex;
+    height: auto;
+    width: auto;
+}
+
+#leftSide, #rightSide, #scoreBoard{
+    height: auto;
+    width: 20%;
+}
+
+#scoreBoard{
+    display:flex;
+    margin: 50px;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+
+}
+#scrTitle{
+    height: auto;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+#playerContainer{
+    display:flex;
+    flex-direction: row;
+    border:#ff4af6;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    width: 100%;
+}
+
+#player1, #player2{
+    display:flex;
+    flex: 1 1 49%;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px;
+    height: auto;
+    width: 49%;
+}
+
+#p1Label,  #p2Label, #p1Score, #p2Score{
+    height: auto;
+    width: 100%;
+}
+#p1Score, #p2Score{
+    border:#ffffff;
+    border-style: double;
+    padding: 20px 0px 0px 0px;
+    border-width: 3px 0px 0px 0px;
+}
+
+#icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+#msgCenter{
+    margin: 0px 0px 0px 0px;
+}
+
+img{       
+    margin: 50px;
+    border-radius: 50%;
+    border:#ffffff;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+}
+img:hover{
+    cursor: pointer;
+}
+#buttons{
+    margin: 50px;
+}
+button{
+    height:45px;
+    font-size: 1.25rem;
+    width: 80px;
+    border-radius: 18px;
+}
